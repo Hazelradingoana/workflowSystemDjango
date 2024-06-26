@@ -1,0 +1,22 @@
+# Ignore Python virtual environments
+venv/
+env/
+.venv/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore local settings file
+workflowSystem/settings_local.py
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+
+# Ignore system or temporary files
+.DS_Store
+*.tmp
+
+#  Ignore saved Excel files
+*.xlsx
