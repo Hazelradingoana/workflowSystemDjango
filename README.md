@@ -104,28 +104,6 @@ Submit the form to see the generated temporal graph.
 
 The workflow is designed to be extensible. To add new features or modify existing ones, follow the existing code structure and conventions. Use Django's built-in functionality for creating forms, handling file uploads, and rendering templates.
 
-## License
-
-
-
-
-
-
-
-
-
-## Features
-
-- Capture customer information via an HTML form.
-- Upload an Excel file with the customer's financial data.
-- Render a temporal graph displaying income and expenditure.
-
-## Assumptions
-
-- The system supports only one user, without the need for login or user management.
-- Data storage is implemented using SQLite for simplicity.
-- The user interface is simple and styled using HTML forms.
-
 ## Setup and Installation
 
 ### Prerequisites
@@ -134,7 +112,7 @@ The workflow is designed to be extensible. To add new features or modify existin
 - Django
 - Pandas
 - Openpyxl
--postgresSQL
+-postgreSQL
 
 ### Installation
 
@@ -164,7 +142,7 @@ Start the development server:
 python manage.py runserver
 
 
-Usage
+## Usage
 Navigate to the home page and then get to the upload page.
 fill out the customer form.
 Upload the Excel file with financial data.
