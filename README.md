@@ -32,6 +32,7 @@ templates/customers: Contains the HTML templates for the forms and the home page
 Users navigate to the home page, where they see a form for entering customer information and uploading an Excel file.
 
 ![Home Page Screenshot](images/images/Screenshot 2024-06-27 004521.png)
+![Screenshot 2024-06-27 004521](https://github.com/Hazelradingoana/workflowSystemDjango/assets/125089769/f9a376f7-f2fd-4b11-8076-923bc059beb7)
 
 
 ## Form Submission:
