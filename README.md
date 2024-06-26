@@ -13,7 +13,9 @@ Graph Rendering: The system processes the uploaded Excel file and generates a gr
 
 ## Technologies Used
 Django: A high-level Python web framework that encourages rapid development and clean, pragmatic design.
+
 Pandas: A powerful data analysis and manipulation library for Python.
+
 Openpyxl: A library for reading and writing Excel files.
 
 
