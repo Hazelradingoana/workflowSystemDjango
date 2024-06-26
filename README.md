@@ -71,6 +71,7 @@ Git
 Clone the Repository:
 
 git clone https://github.com/Hazelradingoana/workflowSystemDjango.git
+
 cd workflowSystemDjango
 
 
@@ -113,33 +114,6 @@ The workflow is designed to be extensible. To add new features or modify existin
 - Pandas
 - Openpyxl
 -postgreSQL
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Hazelradingoana/workflowSystemDjango.git
-
-
-Navigate to the project directory:
-
-
-cd workflowSystemDjango
-
-
-Install the required packages:
-
-pip install -r requirements.txt
-
-
-Run the migrations:
-
-python manage.py migrate
-
-
-Start the development server:
-
-python manage.py runserver
 
 
 ## Usage
