@@ -1,0 +1,14 @@
+<!-- customers/templates/customers/graph.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temporal Graph</title>
+</head>
+<body>
+    <h2>Temporal Graph</h2>
+    <h3>{{ customer }}</h3>
+    <img src="data:image/png;base64,{{ graph }}" />
+    <a href="{% url 'customer_detail' pk=customer.pk %}">Back to Customer Detail</a>
+</body>
+</html>
