@@ -45,12 +45,13 @@ When the form is submitted, the data is sent to the server, where it is processe
 
 The uploaded Excel file is read using Pandas and Openpyxl.
 
-![Screenshot 2024-06-27 004624](https://github.com/Hazelradingoana/workflowSystemDjango/assets/125089769/1cc50089-c8b3-40d9-986f-01558078a61e)
-
+![Screenshot 2024-06-27 004609](https://github.com/Hazelradingoana/workflowSystemDjango/assets/125089769/7af32ec6-7a3c-40e7-9817-f4893227fc07)
 
 ## Data Processing:
 
 The financial data is extracted from the Excel file and processed to generate a temporal graph.
+![Screenshot 2024-06-27 004624](https://github.com/Hazelradingoana/workflowSystemDjango/assets/125089769/1cc50089-c8b3-40d9-986f-01558078a61e)
+
 
 ## Graph Rendering:
 
