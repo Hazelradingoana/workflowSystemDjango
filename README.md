@@ -21,7 +21,9 @@ Openpyxl: A library for reading and writing Excel files.
 
 ## Key Components
 views.py: Contains the logic for handling form submissions and file uploads.
+
 urls.py: Maps URLs to the appropriate views.
+
 templates/customers: Contains the HTML templates for the forms and the home page.
 
 
@@ -52,6 +54,7 @@ The uploaded Excel file is read using Pandas and Openpyxl.
 ## Data Processing:
 
 The financial data is extracted from the Excel file and processed to generate a temporal graph.
+
 ![Screenshot 2024-06-27 004624](https://github.com/Hazelradingoana/workflowSystemDjango/assets/125089769/1cc50089-c8b3-40d9-986f-01558078a61e)
 
 
@@ -80,11 +83,13 @@ cd workflowSystemDjango
 ## Create a Virtual Environment (Optional but recommended):
 
 python -m venv venv
+
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 ## Install the Required Packages:
 
 pip install -r requirements.txt
+
 ## Apply Migrations:
 
 python manage.py migrate
