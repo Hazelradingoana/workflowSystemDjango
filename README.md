@@ -31,22 +31,21 @@ templates/customers: Contains the HTML templates for the forms and the home page
 
 Users navigate to the home page, where they see a form for entering customer information and uploading an Excel file.
 
-![Home Page Screenshot](images/images/Screenshot 2024-06-27 004521.png)
-![Screenshot 2024-06-27 004521](https://github.com/Hazelradingoana/workflowSystemDjango/assets/125089769/f9a376f7-f2fd-4b11-8076-923bc059beb7)
+![Screenshot 2024-06-27 004521](https://github.com/Hazelradingoana/workflowSystemDjango/assets/125089769/d9b476c2-3221-4c6d-9d48-d916dc05ac2a)
 
 
 ## Form Submission:
 
 When the form is submitted, the data is sent to the server, where it is processed by Django views.
 
-![Home Page Screenshot](images/images/Screenshot 2024-06-27 004609.png)
+![Screenshot 2024-06-27 004609](https://github.com/Hazelradingoana/workflowSystemDjango/assets/125089769/7af32ec6-7a3c-40e7-9817-f4893227fc07)
 
 
 ## File Upload:
 
 The uploaded Excel file is read using Pandas and Openpyxl.
 
-![Home Page Screenshot](images/images/Screenshot 2024-06-27 004624.png)
+![Screenshot 2024-06-27 004624](https://github.com/Hazelradingoana/workflowSystemDjango/assets/125089769/1cc50089-c8b3-40d9-986f-01558078a61e)
 
 
 ## Data Processing:
@@ -90,7 +89,7 @@ python manage.py migrate
 
 python manage.py runserver
 
-![Home Page Screenshot](images/images/Screenshot 2024-06-27 004503.png)
+![Screenshot 2024-06-27 004503](https://github.com/Hazelradingoana/workflowSystemDjango/assets/125089769/0f08e2a0-fd61-4f1a-89cf-934b19fca6ca)
 
 
 ## Access the Application:
