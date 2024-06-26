@@ -19,4 +19,4 @@ workflowSystem/settings_local.py
 *.tmp
 
 #  Ignore saved Excel files
-media\uploads
+media/uploads
